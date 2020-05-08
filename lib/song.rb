@@ -11,6 +11,7 @@ class Song
   def self.count
     @@count
   end 
+  
  def self.artists
     @@artists & @@artists
   end
@@ -19,7 +20,7 @@ class Song
     @@genres & @@genres
   end
 
-  def self.genre_count
+   def self.genre_count
     @@genre_count
   end
 
@@ -39,5 +40,4 @@ class Song
     @@artist_count[artist] ||= 0
     @@artist_count[artist] += 1
   end
-
 end
