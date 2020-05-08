@@ -5,6 +5,6 @@ class Song
   @@count = 0 
   @@artist=[]
   @@name=name 
-  @genres=[]
+  @@genres=[]
   
   def .genre
