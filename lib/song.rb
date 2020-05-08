@@ -7,4 +7,4 @@ class Song
   @@name=name 
   @@genres=[]
   
-  def .genre
+  def initialize
