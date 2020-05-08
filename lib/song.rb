@@ -6,6 +6,7 @@ class Song
   @@artists=[]
   @@genres=[]
   @@genre_count={}
+  @@artist_count={}
   
   def self.count
     @@count
